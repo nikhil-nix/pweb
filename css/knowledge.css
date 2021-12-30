@@ -1,0 +1,25 @@
+
+body {
+	font-family: "Consolas";
+	color: white;
+}
+
+#header {
+	clear: both;
+	width: 100%;
+}
+
+.hbutton {
+	float: left;
+	border: 2px white ridge;
+	padding: 5px;
+	margin: auto;
+}
+
+#content {
+	clear: both;
+	position: fixed;
+	height: 90%;
+	width: 100%;
+	bottom: 0px;
+}

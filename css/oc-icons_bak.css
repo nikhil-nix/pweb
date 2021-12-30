@@ -1,0 +1,71 @@
+
+.dLink{
+	margin: auto auto 2px 10px;
+	width:64px;
+	height:64px;
+	margin: 10px;
+	float:left;
+	
+}
+.dLink button{
+	font-family:'Courier';
+	margin: 0px auto 0px auto;
+	text-align: center;
+	font-size:14px;
+	font-family:'Courier';
+	font-weight:normal;
+	line-height:1;
+	letter-spacing:5px;
+	text-shadow: 1px 1px black;
+	color: #e5b7e5; text-decoration:none;
+} 
+.dLink button:hover { color: #ce73ce; cursor:help; }
+
+.dIcon{
+	margin: auto;
+	width:48px;
+	height:48px;
+	image-rendering: pixelated;
+	background-size: cover;
+	position: relative;
+	top: 0;
+	left: 0;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+  	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.dIcon img{
+	width:48px;
+	height:48px;
+	image-rendering: pixelated;
+}
+
+.icon-line {
+	clear: both;
+}
+
+.dIcon-About { background-image: url("../images/oc-img/l-about.png" ); }
+.dIcon-Blog  { background-image: url("../images/oc-img/l-blog.png"  ); }
+.dIcon-Guest { background-image: url("../images/oc-img/l-guest.png" ); }
+.dIcon-Layers{ background-image: url("../images/oc-img/l-layers.png"); }
+.dIcon-Login { background-image: url("../images/oc-img/l-login.png" ); }
+.dIcon-Mail  { background-image: url("../images/oc-img/l-mail.png"  ); }
+.dIcon-Disc  { background-image: url("../images/oc-img/l-discor.png"); }
+.dIcon-Know  { background-image: url("../images/oc-img/l-know.png"  ); }
+
+.dIcon-CFold { background-image: url("../images/oc-img/l-folder.png"); }
+.dIcon-OFold { background-image: url("../images/oc-img/l-fopen.png" ); }
+
+.dIcon-Prog  { background-image: url("../images/oc-img/l-prog.png"  ); }
+.dIcon-Bat   { background-image: url("../images/oc-img/l-bat.png"   ); }
+
+.dIcon-Doc   { background-image: url("../images/oc-img/l-docs.png"  ); }
+
+.dIcon-Txt   { background-image: url("../images/oc-img/l-ftxt.png"  ); }
+.dIcon-Vid   { background-image: url("../images/oc-img/l-fvid.png"  ); }
+.dIcon-Snd   { background-image: url("../images/oc-img/l-fsnd.png"  ); }
+.dIcon-Img   { background-image: url("../images/oc-img/l-fimg.png"  ); }
+
+.dIcon-Broken{ background-image: url("../images/oc-img/l-broke.png" ); }
+
+.dIcon-Awd   { background-image: url("../images/oc-img/l-awd.png"	); }

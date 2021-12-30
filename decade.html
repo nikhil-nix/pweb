@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=0.4">
+		<title>աǟʀռɨռɢ</title>
+		
+		<style>
+			body{
+				background-position:center; 
+				background-attachment: fixed; 
+				background-size: cover;
+				background-color: black;
+				background-image: url("images/warning.gif");
+			}
+		</style>
+	</head>
+	
+	
+	<body>
+		<audio id="siren" autoplay loop>
+			<source src="sounds/mp3/siren.mp3" type="audio/mpeg">
+			<source src="sounds/ogg/siren.ogg" type="audio/ogg">
+		</audio>
+		<audio  id="message" autoplay>
+			<source src="sounds/mp3/warning.mp3" type="audio/mpeg">
+			<source src="sounds/ogg/warning.ogg" type="audio/ogg">
+		</audio>
+		<script>
+			document.getElementById("siren").volume = 0.4;
+			document.getElementById("message").volume = 0.8;
+		</script>
+		
+	</body>
+</html>

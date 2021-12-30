@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=0.4">
+		<title> [  ] </title>
+		<link rel="icon" href="../../images/logo.gif">
+
+		<link rel="stylesheet" type="text/css" href="../../css/main.css">
+		<style> 
+			body {background-color: #fcc5ea ; color: black;} 
+			button {
+				font-family:'Courier';
+				font-weight:normal;
+				text-align:center;
+				font-size:20px; 
+				letter-spacing:9px;
+				line-height:1;
+				color: #400d4f;
+			} 
+			button:hover {color: #ce73ce; cursor:help;}
+		</style>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="../../js/audio.js"></script>
+		<script src="../../js/cookies.js"></script>
+		<script src="../../js/themes.js"></script>
+		<script>
+			let frameId = 0;
+			$(document).ready(() => {
+				const urlParams = new URLSearchParams(window.location.search);
+				frameId = urlParams.get('id');
+				$(`#win-id-${frameId} .win-text`, window.parent.document).html('[new-home@web ~]$ /home/nikhil/layer/story/now.txt');
+			});
+			audioStoryPlay(0);
+		</script>
+	</head>	
+	
+	<body onunload='audioStoryStopAll();'>
+		<div id="backbut">
+			<button class="button" onclick="window.location.href = '../my-story.html' + '?id=' + frameId"> Go Back </button>
+		</div>
+		<br>
+		<h1>Happiness</h1>
+		<h2>
+			I was thinking about things like happiness, sadness, future and what things was.<br>
+			There are plenty of feelings that I can't reach right now. By the way how can I manage or sort my thoughts when they're almost dead now?. I think I started to feel good but... I'm not.<br>
+			Well, here's the deal. How can I be happy with myself?<br>
+			There's no way I can now...<br>
+			I was envy about people who just leaved their lives and I thought that I can live like that too. But I failed.<br>
+			Going back to dark feelings now is different then it was before. Now I'm different and it defines my soul and my mind. But I don't want to go back. I don't want to go back anymore... I DON'T WANT TO LIVE LIKE THAT. . .<br>
+			How should I live?
+		</h2>
+		
+	</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=0.4">
+		<title> [ Wallpaper ] </title>
+		<link rel="icon" href="images/logo.gif">
+		
+		<script type="text/javascript" src="js/cookies.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="css/oc-icons.css">
+		
+		<script>
+			function cBack(back){
+				setCookie("background", back, 365);
+				window.parent.location.reload();
+			}
+		</script>
+		
+		<style>
+			body {background-color: #111111;}
+			#pics {
+				display: flex;
+  			flex-wrap: wrap;
+				justify-content: space-between;
+				align-content: space-between;
+			}
+			button{
+				background-position:center;
+				background-size: cover;
+				width: 32vw; height: 29vh; 
+				padding: 0;
+				border: none;
+				outline: none;
+				margin: 1vh auto 1vh auto;
+			}
+			button:active {
+				border: none;
+				box-shadow: none;
+			}
+			#pics img {
+				opacity: 0;
+				width: 32vw; height: 29vh; 
+			}
+			#pics img:hover {
+				opacity: 0.8;
+			}
+			button:hover {
+				cursor: help;
+			}
+
+			::-webkit-scrollbar {width: 2px;height:2px;}
+			::-webkit-scrollbar-track {background: #070707;}
+			::-webkit-scrollbar-thumb {background: #555;}
+			::-webkit-scrollbar-thumb:hover {background: #f4f1e8;}
+			::-webkit-scrollbar-corner {background: #070707;}
+		</style>
+	</head>
+	
+	<body>
+		
+		<div id="pics">
+			<button onclick="cBack(1);" style="background-image: url(images/backgrounds/ocback1.png);">
+				<img src="images/backgrounds/setback.png">
+			</button>
+			<button onclick="cBack(2);" style="background-image: url(images/backgrounds/ocback2.png);">
+				<img src="images/backgrounds/setback.png">
+			</button>
+			<button onclick="cBack(3);" style="background-image: url(images/backgrounds/ocback3.png);">
+				<img src="images/backgrounds/setback.png">
+			</button>
+			<button onclick="cBack(4);" style="background-image: url(images/backgrounds/ocback4.png);">
+				<img src="images/backgrounds/setback.png">
+			</button>
+			<button onclick="cBack(5);" style="background-image: url(images/backgrounds/ocback5.png);">
+				<img src="images/backgrounds/setback.png">
+			</button>
+			<button onclick="cBack(6);" style="background-image: url(images/backgrounds/ocback6.png);">
+				<img src="images/backgrounds/setback.png">
+			</button>
+			<button onclick="cBack(7);" style="background-image: url(images/backgrounds/ocback7.png);">
+				<img src="images/backgrounds/setback.png">
+			</button>
+			<button onclick="cBack(8);" style="background-image: url(images/backgrounds/ocback8.png);">
+				<img src="images/backgrounds/setback.png">
+			</button>
+			<button onclick="cBack(9);" style="background-image: url(images/backgrounds/ocback9.png);">
+				<img src="images/backgrounds/setback.png">
+			</button>
+			<button onclick="cBack(10);" style="background-image: url(images/backgrounds/ocback10.png);">
+				<img src="images/backgrounds/setback.png">
+			</button>
+			<button onclick="cBack(11);" style="background-image: url(images/backgrounds/ocback11.png);">
+				<img src="images/backgrounds/setback.png">
+			</button>
+			<button onclick="cBack(12);" style="background-image: url(images/backgrounds/ocback12.png);">
+				<img src="images/backgrounds/setback.png">
+			</button>
+			<button onclick="cBack(13);" style="background-image: url(images/backgrounds/ocback13.png);">
+				<img src="images/backgrounds/setback.png">
+			</button>
+		</div>
+		
+	</body>
+</html>

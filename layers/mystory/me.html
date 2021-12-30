@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=0.4">
+		<title> [  ] </title>
+		<link rel="icon" href="../../images/logo.gif">
+
+		<link rel="stylesheet" type="text/css" href="../../css/main.css">
+		<style> 
+			body {background-color: #fcc5ea ; color: black;} 
+			button {
+				font-family:'Courier';
+				font-weight:normal;
+				text-align:center;
+				font-size:20px; 
+				letter-spacing:9px;
+				line-height:1;
+				color: #400d4f;
+			} 
+			button:hover {color: #ce73ce; cursor:help;}
+		</style>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="../../js/audio.js"></script>
+		<script src="../../js/cookies.js"></script>
+		<script src="../../js/themes.js"></script>
+		<script>
+			getCurrentTheme();
+			let frameId = 0;
+			$(document).ready(() => {
+				const urlParams = new URLSearchParams(window.location.search);
+				frameId = urlParams.get('id');
+				$(`#win-id-${frameId} .win-text`, window.parent.document).html('[new-home@web ~]$ /home/nikhil/layer/story/me.txt');
+			});
+			audioStoryPlay(0);
+		</script>
+	</head>	
+	
+	<body onunload='audioStoryStopAll();'>
+		
+		<div id="backbut">
+			<button class="button" onclick="window.location.href = '../my-story.html' + '?id=' + frameId"> Go Back </button>
+		</div>
+		<br>
+		
+		<h1>My story</h1>
+		<h2>
+		  Some things should be told, some things are not.<br>
+		  How can I tell my story without referring my past or my present? I don't think there's a way to it. But somehow I'm here to tell you what is me and what is my feelings. <br>
+		  I'll be short in words but how can I do this if there's no words left to say from me. I'm downed, I'm depressed... again. And how should I do things with this mind? <br>
+		  The world is dying around me and I don't know what should I do to prevent this to happen. I lost lot of what I had before. I lost my mind. I lost sense of happiness... Or not? I'm happy but I'm not and it's the biggest confusion for me. Most of the day a happy face but in the night I'm drowning in my tears. There's no way to cope with it. There's no left behind. I need to bury my way back. I should left what I had before. I should go my way. If it's here or anywhere. <br>
+		  But also I should left behind what I loved. Can I? <br>
+		  Can<br>I?
+		</h2>
+		
+	</body>
+</html>

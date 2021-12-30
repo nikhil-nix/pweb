@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title> [ todo ] </title>
+		<link rel="icon" href="/images/logo.gif">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=0.4">
+		
+		<style>
+			body { background: black; color: white; text-align: left; padding: 1px;}
+		</style>
+	</head>
+	
+	<body>
+        <br>
+        <hr>
+        <h1 style="text-align: center;">ToDo list</h1>
+        <hr>
+        <br>
+        <div style="display: flex; flex-wrap: nowrap; justify-content:space-between; margin: 2px;">
+            <div style="float:left;width:33%;" id="todo">
+                <h1 style="text-align: center; color: red;">ToDo</h1>
+
+                <h2>start vlogging channel</h2>
+                <h2>write blog</h2>
+                <h2>create python course</h2>
+                <h2>Add window constraints</h2>
+                <h2>Redesign desktop</h2>
+                <h2>Knowledge page</h2>
+                <h2>Finish rogue</h2>
+                <h2>Profiles</h2>
+                <h2>Write about page</h2>
+                <h2>Socials?</h2>
+                <h2>Blog tool</h2>
+                <h2>More todos</h2>
+            </div>
+            <div style="float:left;width:33%" id="doing">
+                <h1 style="text-align: center; color: orange;">Doing</h1>
+
+                <h2>Basic bash commands</h2>
+                <h2>Make bash resemble bash more</h2>
+                <h2>Bash modifiers <code>--help -h</code></h2>
+                <h2>Bash command remember</h2>
+            </div>
+            <div style="float:left;width:33%" id="done">
+                <h1 style="text-align: center; color: greenyellow;">Done</h1>
+
+                <h2>Start todo list</h2>
+                <h2>new-home@web</h2>
+            </div>
+        </div>
+        
+
+        <script>
+            const ttodo = '<span style="color: red;">x</span> ';
+            const tdoing = '<span style="color: orange;">o</span> ';
+            const tdone = '<span style="color: greenyellow;">v</span> ';
+
+            $('#todo').children('h2').each( function() {
+                $(this).html( ttodo + $(this).html() );
+            } );
+            $('#doing').children('h2').each( function() {
+                $(this).html( tdoing + $(this).html() );
+            } );
+            $('#done').children('h2').each( function() {
+                $(this).html( tdone + $(this).html() );
+            } );
+        </script>
+	</body>
+</html>

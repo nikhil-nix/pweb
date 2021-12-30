@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=0.4">
+		<title> [ Layer ] </title>
+		
+		<link rel="stylesheet" type="text/css" href="css/oc-icons.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="icon" href="images/logo.gif">
+		<style> body {background-color: #111111} </style>
+			
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="js/audio.js"></script>
+		
+		<script src="js/cookies.js"></script>
+		<script src="js/themes.js"></script>
+
+		<script>
+			getCurrentTheme();
+			let frameId = 0;
+			$(document).ready(() => {
+				const urlParams = new URLSearchParams(window.location.search);
+				frameId = urlParams.get('id');
+				$(`#win-id-${frameId} .win-text`, window.parent.document).html('[new-home@web ~]$ /home/nikhil/layer/');
+				audioStoryStopAll();
+			});
+		</script>
+		
+	</head>
+	
+	
+	<body>
+	
+		<div class="dLink"><button class="button" ondblclick="window.location.href = 'layers/my-story.html' + '?id=' + frameId">
+			<div class="dIcon dIcon-OFold"></div>
+			कहानी
+		</button></div>
+		
+		
+	</body>
+</html>

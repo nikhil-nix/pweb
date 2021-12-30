@@ -1,0 +1,82 @@
+:root {
+    --atheos-bg-color: rgb(223, 223, 206);
+    --atheos-border-color: rgb(63, 63, 42);
+    --atheos-page-bg-color: rgb(191, 191, 170);
+    --atheos-window-bar-bg-color: rgb(114, 114, 79);
+    --atheos-custom-shadow-color: rgb(172, 172, 154);
+    --atheos-text-hover-color: rgb(201, 201, 138);
+    --atheos-text-title-color: rgb(235, 235, 217);
+    --atheos-text-title-shadow-color: rgb(184, 184, 151);
+}
+
+/* FROM OC-STYLE.CSS */
+
+#infobar {
+	border: 4px ridge  var(--atheos-border-color);
+	background-color: var(--atheos-bg-color);
+}
+
+#infomenu {
+	border-right: 4px ridge  var(--atheos-border-color);
+}
+
+#page {
+	background-color: var(--atheos-page-bg-color);
+    background-image: url(../images/grid.png);
+    background-size: 36pt auto;
+    background-position: 1pt 1pt;
+}
+
+#docker {
+	border: 4px ridge  var(--atheos-border-color);
+}
+
+
+.window {
+	border: 5px ridge var(--atheos-border-color);
+}
+
+.win-bar{
+	background-color: var(--atheos-bg-color);
+	border-bottom: 3px ridge var(--atheos-border-color);
+}
+
+.win-text{
+	background-color: var(--atheos-window-bar-bg-color);
+	border: 3px ridge var(--atheos-border-color);
+}
+
+#scanlines {
+    background: none;
+	pointer-events: none;
+}
+
+/* FROM MAIN.CSS */
+
+hr { border-bottom-width:2px; border-color:var(--atheos-bg-color); }
+
+a:hover { color: var(--atheos-text-hover-color); cursor:help; }
+a 		{ color: var(--atheos-bg-color); text-decoration:none; }
+
+/* Animations */
+
+.glowtext { animation: titleAnim 5s infinite; }
+@keyframes titleAnim{
+	50%{
+		color: var(--atheos-text-title-color);
+		text-shadow:var(--atheos-text-title-shadow-color) 1px 4px 5px;
+	}
+}
+
+/* Custom elements */
+
+.block {
+	box-shadow: var(--atheos-custom-shadow-color) 0px 0px 2px;
+}
+
+/* FROM OC-ICONS.CSS */
+
+.dLink button{
+	color: var(--atheos-accent-color); text-decoration:none;
+} 
+.dLink button:hover { color: var(--atheos-text-hover-color); cursor:help; }

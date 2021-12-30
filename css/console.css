@@ -1,0 +1,138 @@
+
+body{
+	text-align:left;
+  overflow: hidden;
+}
+
+pre {
+  font-family:'Courier';
+  font-size: 16px;
+	line-height:1;
+  font-weight:normal;
+  margin: 0;
+  padding: 0;
+}
+
+#binput {
+  background-color: white;
+  color: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#input {
+  font-family:'Courier';
+  font-size: 16px;
+  position: absolute;
+  bottom: 0;
+  left: 29px;
+  width: calc( 100% - 29px );
+  height: 16px;
+  border: none;
+  padding: 0;
+  overflow: hidden;
+  resize: none;
+}
+
+#input:focus { 
+  outline: none !important;
+  border: none;
+  box-shadow: none;
+}
+
+#output {
+	position:fixed;
+	top: 0;
+	left: 0;
+  width: 100%; 
+  max-width: 100%;
+  height: calc( 100% - 14px );
+  display: table-cell;
+  overflow: hidden;
+}
+
+#content {
+  overflow: auto;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.table {
+  display: table;
+  width: 90%;
+  border-collapse: separate;
+  border-spacing: 0 0.5px;
+  table-layout: auto; /* fixed; */
+  text-align: left;
+}
+
+.header {
+  display: table-row;
+  clear: both;
+  text-align: left; /* center; */
+}
+.header-col {
+  display: table-cell;
+}
+
+.row {
+  display: table-row;
+  clear: both;
+  text-decoration: none;
+  /* color: #000000; */
+  /* background-color: #ffffff; */
+}
+
+.col {
+  display: table-cell;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.col:first-child {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*
+.col:first-child {
+  position: relative;
+  left: 25px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  padding: 0 15px 0 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.col:nth-child(2) {
+  position: relative;
+  left: 25px;
+}
+.col:last-child {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+*/
+
+.col-file {
+  color: aqua;
+}
+
+.col-dir {
+  background-color: aqua;
+  color: black;
+}
+
+.pagination {
+  font-size:64px;
+  border: 3px solid white;
+  text-align: center;
+  vertical-align: central;
+}

@@ -1,0 +1,112 @@
+body{
+	background-image: url("../images/backgrounds/layer0.gif"); 
+	background-size: cover;
+}
+
+.divider {
+	background-image:url("../images/boidotoyonde.png");
+	background-repeat:no-repeat;
+	height:79px;
+	width:800px;
+	margin: auto auto 10px auto;
+}
+
+.messagebox {
+	background-color:#3E3D3D;
+	width:90%;
+	min-height: 68px;
+	margin: 10px auto 10px auto;
+	text-align:left;
+	box-shadow:#e5b7e5 0px 0px 2px;
+	padding-top:1px;
+	padding-bottom:1px;
+}
+
+#footer {
+	margin-top:70px;
+	color:#e5b7e5;
+	border:0px;
+	text-align:center;
+	letter-spacing:8px;
+	font-size:9px;
+	margin-bottom:20px;
+}
+	
+#footer span {
+	background-color:black;
+	padding:3px;
+}
+
+#footer a {
+	text-decoration:underline;	
+}
+
+/* User Comments */
+
+.uicon{
+	background-repeat:no-repeat;
+	background-size: cover;
+	height:64px;
+	width:64px;
+	margin-left:5pt;
+	margin-right:5pt;
+	margin-bottom:10px;
+	margin-top:2px;
+	float:left;
+}
+
+.icon_admin {
+	background-image:url("../images/uicon/icon_admin.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	height:32px;
+	width:32px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+}
+
+.post-head{
+	line-height:8px;
+}
+
+.post-head {
+	font-weight: bold;
+	letter-spacing:2px;
+	font-size:16px;
+	font-family:"Times New Roman";
+}
+
+.post-text{
+	margin-top:5px;
+	margin-left:85px;
+	font-size:15px;
+	font-family:"Times New Roman";
+	font-weight:normal;
+}
+
+.icon_adminb {background-image:url("../images/uicon/icon_admin_b.png"); }/* Admin */
+
+.icon_asuka { background-image:url("../images/uicon/icon_asuka.png"); }/* Asuka */
+
+.icon_rei { background-image:url("../images/uicon/icon_rei.png"); }/* Rei */
+
+.icon_ritsuko { background-image:url("../images/uicon/icon_ritsuko.png"); }/* Ritsuko */
+
+.icon_shinji { background-image:url("../images/uicon/icon_shinji.png"); }/* Shinji */
+
+.icon_who { background-image:url("../images/uicon/icon_who.png"); }/* ??? */
+
+.icon_aesthetic { background-image:url("../images/uicon/icon_aesthetic.png"); }/* 𝔸𝕖𝕤𝕥𝕙𝕖𝕥𝕚𝕔 */
+
+.icon_glitch { background-image:url("../images/uicon/icon_glitch.png"); }/* 🅶🅻🅸🆃🅲🅷 */
+
+.icon_medusa { background-image:url("../images/uicon/icon_medusa.png"); }/* MΣDЦƧΛ */
+
+.icon_neko { background-image:url("../images/uicon/icon_neko.png"); }/* (っ◔◡◔)っ ♥　ねこ ♥ */
+
+.icon_sadness { background-image:url("../images/uicon/icon_sadness.png"); }/* 𝒮𝒶𝒹𝓃𝑒𝓈𝓈 */
+
+.icon_lain { background-image:url("../images/uicon/icon_lain.png"); }/* レイン */
+
+.icon_sailor { background-image:url("../images/uicon/icon_sailor.png"); }/* 𝒞𝒾𝓉𝓎𝒢𝒾𝓇𝓁 */

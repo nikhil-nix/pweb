@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=0.4">
+		<link rel="icon" href="/images/logo.gif">
+		<title> [ 🆃🅷🅴 🅴🅽🅳 ] </title>
+		
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<style>
+			body { background-image: url("images/backgrounds/login.gif"); }
+			.hidden {display: none;}
+		</style>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script>
+			function playSound(id) {
+				$(id)[0].play();
+			}
+			let eyeState = 0;
+			let c, ctx, x, y;
+			$(document).ready( function() {
+				setInterval(eyeBallHand, 100);
+				c = document.getElementById("eye");
+  			ctx = c.getContext("2d");
+			});
+			$(document).mousemove(function( event ) {
+				x = (event.pageX - 128 - $('#eye').offset().left);
+				y = (event.pageY - 24 - $('#eye').offset().top);
+			});
+			function eyeBallHand() {
+				let $form = $(':focus');
+				if ($form.length) {
+					if (eyeState < 3) eyeState ++;
+				} else {
+					if (eyeState > 0) eyeState --;
+				}
+				//console.log('x: ' + x + '| y: ' + y);
+				let img = document.getElementById('eye' + eyeState);
+				let imgb = document.getElementById('eyeb');
+				ctx.clearRect(0, 0, c.width, c.height);
+				if (eyeState > 0) {
+					let _x = x/15;
+					let _y = y/40;
+					ctx.drawImage(imgb, _x, _y);
+				}
+  			ctx.drawImage(img, 0, 0);
+				//$('#eye').attr('src', `images/eyes/eye${eyeState}.png`);
+			}
+			
+		</script>
+	</head>
+	
+	<body>
+		<br>
+		<img src="images/cd-disk.gif" style="width:200px" />
+		<div class="block">
+			<br>
+			<h1 class="glowtext">
+				Who Are You?
+			</h1>
+			<br>
+			<h4>
+				あなたの名前で私たちは真実を知っています
+			</h4>
+			<br>
+			<hr>
+			<br>
+			<canvas id="eye" width="256" height="48" ></canvas>
+			<img src="images/eyes/eye0.png" id="eye0" class="hidden">
+			<img src="images/eyes/eye1.png" id="eye1" class="hidden">
+			<img src="images/eyes/eye2.png" id="eye2" class="hidden">
+			<img src="images/eyes/eye3.png" id="eye3" class="hidden">
+			<img src="images/eyes/eyeball.png" id="eyeb" class="hidden">
+			<p>
+				<label>Login<br></label>
+				<input id="logiId" type = "text" value = "">
+			</p>
+			<p>
+				<label>Password<br></label>
+				<input id="passId" type = "password" value = "" />
+			</p>
+			<a onclick="playSound('#error'); 
+						document.getElementById('logiId').value = '';
+						document.getElementById('passId').value = '';" title="ログイン" >Log In</a>
+			<br><br>
+			<hr>
+			
+			<br>
+			
+			
+			<br><br>
+			
+		</div>
+		<audio id="error"  preload="auto">
+			<source src="sounds/mp3/error.mp3" type="audio/mpeg">
+			<source src="sounds/ogg/error.ogg" type="audio/ogg">
+		</audio>
+	</body>
+</html>

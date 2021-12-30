@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title> [ theme notice ] </title>
+		<link rel="icon" href="/images/logo.gif">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=0.4">
+
+		<script src="js/cookies.js"></script>
+		<script src="js/themes.js"></script>
+		
+		<style>
+			body { background: black; color: white; text-align: left; padding: 1px;}
+            button {
+                align-self: center;
+                width: 100%;
+                height: 20em;
+                background: rgb(22, 22, 22);
+                border: none;
+                color: white;
+            }
+            button:hover {
+                background: rgb(44, 43, 43);
+            }
+		</style>
+
+        <script>
+			var theme = getCurrentTheme();
+			function toggleTheme() {
+				if (theme == "1") {
+					setCookie("theme", "0", 365);
+				} else {
+					setCookie("theme", "1", 365);
+				}
+				window.parent.location.reload();
+			}
+        </script>
+	</head>
+	
+	<body>
+        <br>
+        <hr>
+        <h1 style="text-align: center;">IMPORTANT INFO</h1>
+        <hr>
+        <br>
+        <h2 style="text-align: center;">I'm currently working on different themes for NikhilixOS and they might be buggy. Even current theme might have some problems here and there. Use on your own risk.</h2>
+        <br>
+        <br>
+        <button onclick="toggleTheme()"><h1>Switch Current Theme</h1></button>
+	</body>
+</html>

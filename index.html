@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> [ निखिल ] </title>
+		<link rel="icon" href="images/logo.gif">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		<script src="lib/jquery.iframetracker.min.js"></script>
+		<script src="js/cookies.js"></script>
+		<script src="js/atheos.js"></script>
+		<script src="js/themes.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/oc-style.css">
+		<link rel="stylesheet" type="text/css" href="css/oc-icons.css">
+		
+		<script>
+			if (/Mobi|Android/i.test(navigator.userAgent)) {
+				window.open('mobile.html', '_self');
+			}
+			
+			
+			var theme = getCurrentTheme();
+			
+			// $('head').append('<link rel="stylesheet" type="text/css" href="css/theme-new.css">');
+			// $('head').append('<link rel="stylesheet" type="text/css" href="css/theme-old.css">');
+		</script>
+	</head>
+	
+	<body>
+		<!--
+		<div id="loader">
+			<h1 class="glitch" data-text="NikhilixOS">NikhilixOS</h1>
+			<h2 class="glitch" data-text="time waits for noone">time waits for noone</h2>
+		</div>
+		<audio id="snd-boot">
+			<source src="sounds/mp3/bootup.mp3" type="audio/mpeg">
+			<source src="sounds/ogg/bootup.ogg" type="audio/ogg">
+		</audio>
+		<audio id="snd-loaded">
+			<source src="sounds/mp3/loaded.mp3" type="audio/mpeg">
+			<source src="sounds/ogg/loaded.ogg" type="audio/ogg">
+		</audio>
+		-->
+
+		<script>
+			/*
+			document.getElementById("snd-boot").volume = 0.5;
+			document.getElementById("snd-loaded").volume = 0.5;
+			document.getElementById("snd-boot").play();
+			setTimeout(() => {
+				$('#loader').hide();
+				document.getElementById("snd-loaded").play();
+			}, 1000 * 6);
+			*/
+		</script>
+
+		<div id="scanlines"></div>
+		
+		<div id="infobar">
+			<div id="infomenu">Win: 0</div>
+			<div id="infopath"> [new-home@web ~]$ /home/nikhil/Desktop</div>
+		</div>
+		
+		<div id="page">
+			<script>if (theme == "0") {loadWallpaper();}</script>
+			<div class="icon-line"> <!-- LINE 1 -->
+				<div class="dLink"><button class="button" ondblclick="deployWindow('about.html', 'about', '[new-home@web ~]$ /home/nikhil/about.txt')">
+					<div class="dIcon dIcon-About"></div>
+					About
+				</button></div>
+				
+				<div class="dLink"><button class="button" ondblclick="deployWindow('blog.html', 'blog', 'attr://layers-blog.nikhilix.ml/')">
+					<div class="dIcon dIcon-Blog"></div>
+					Blog
+				</button></div>
+				
+				<div class="dLink"><button class="button" ondblclick="deployWindow('login.html', 'login', '[new-home@web ~]$ /home/nikhil/login.sh')">
+					<div class="dIcon dIcon-Login"></div>
+					Login
+				</button></div>
+												
+				<div class="dLink"><button class="button" ondblclick="deployWindow('todo.html', 'todo', '[new-home@web ~]$ /home/nikhil/todo.txt')">
+					<div class="dIcon dIcon-Txt"></div>
+					ToDo
+				</button></div>
+				
+				
+				<div class="dLink"><button class="button" ondblclick="deployWindow('layer.html', 'layer', '[new-home@web ~]$ /home/nikhil/layer/')">
+					<div class="dIcon dIcon-Layers"></div> 
+					Layer
+				</button></div>
+
+			</div> <!-- END LINE 1 -->
+			
+			<div class="icon-line"> <!-- LINE 2 --> 
+				<div class="dLink"></div>
+			</div> <!-- END LINE 2 -->
+			
+			<div class="icon-line"> <!-- LINE 3 -->
+				<div class="dLink"><button class="button" ondblclick="deployWindow('https://www5.cbox.ws/box/?boxid=918017&boxtag=DNtl2E', 'chat', 'attr://open-chat/void.io/')">
+					<div class="dIcon dIcon-Prog"></div>
+					Chat
+				</button></div>
+
+				<div class="dLink"><button class="button" ondblclick="window.open('http://pub49.bravenet.com/guestbook/4164040818/', '_blank')">
+					<div class="dIcon dIcon-Guest">
+						<img src="images/oc-img/link.png" >
+					</div>
+					Guest
+				</button></div>
+				
+				<div class="dLink"><button class="button" ondblclick="deployWindow('mailto:nikhil', '_blank')">
+					<div class="dIcon dIcon-Mail">
+						<img src="images/oc-img/link.png" >
+					</div>
+					Mail
+				</button></div>
+				
+				<div class="dLink"><button class="button" ondblclick="deployWindow('https://discord.gg/GRXzQyX', '_blank')">
+					<div class="dIcon dIcon-Disc">
+						<img src="images/oc-img/link.png" >
+					</div>
+					Talk
+				</button></div>
+			</div> <!-- END LINE 3 -->
+			
+			<div class="icon-line"> <!-- LINE 4 --> 
+				<div class="dLink"></div>
+			</div> <!-- END LINE 4 -->
+			
+			<div class="icon-line"> <!-- LINE 5 -->
+				
+
+				<div class="dLink"><button class="button" ondblclick="deployWindow('music.html', 'music','[new-home@web ~]$ /home/nikhil/music.sh')">
+					<div class="dIcon dIcon-Snd"></div>
+					Music
+				</button></div>
+				
+				<div class="dLink"><button class="button" ondblclick="deployWindow('knowledge.html', 'knowledge', 'attr://knowledge.io/')">
+					<div class="dIcon dIcon-Know"></div>
+					Know
+				</button></div>
+				
+				<div class="dLink"><button class="button" ondblclick="deployWindow('console.html', 'console', '[new-home@web ~]$ /home/nikhil/console.sh')">
+					<div class="dIcon dIcon-Bat"></div>
+					Bash
+				</button></div>
+			</div> <!-- END LINE 5 -->
+			
+			
+			<div class="icon-line"> <!-- LINE 6 --> 
+				<div class="dLink"></div>
+			</div> <!-- END LINE 6 -->
+			
+			
+			<div class="icon-line"> <!-- LINE 7 -->
+				
+				<div class="dLink"><button class="button" ondblclick="deployWindow('backs.html', 'wallpaper', '[new-home@web ~]$ /home/nikhil/wallpaper.bat')">
+					<div class="dIcon dIcon-OFold"></div>
+					Backs
+				</button></div>
+				
+				<div class="dLink"><button class="button" ondblclick="deployWindow('theme-notice.html', 'theme', '[new-home@web ~]$ /home/nikhil/theme.sh')">
+					<div class="dIcon dIcon-Bat"></div>
+					Theme
+				</button></div>
+			</div> <!-- END LINE 7 -->
+
+			
+				
+		</div> <!-- END OF PAGE -->
+		
+		
+		<!-------------------------------------TECH-------------------------------------------->
+		<audio id="snd-st-d-0" loop>
+			<source src="sounds/mp3/mystory.mp3" type="audio/mpeg">
+			<source src="sounds/ogg/mystory.ogg" type="audio/ogg">
+		</audio>
+		<audio id="snd-st-d-1" loop>
+			<source src="sounds/mp3/mystory_d1.mp3" type="audio/mpeg">
+			<source src="sounds/ogg/mystory_d1.ogg" type="audio/ogg">
+		</audio>
+		<audio id="snd-st-d-2" loop>
+			<source src="sounds/mp3/mystory_d2.mp3" type="audio/mpeg">
+			<source src="sounds/ogg/mystory_d2.ogg" type="audio/ogg">
+		</audio>
+		<audio id="snd-st-d-3" loop>
+			<source src="sounds/mp3/mystory_d3.mp3" type="audio/mpeg">
+			<source src="sounds/ogg/mystory_d3.ogg" type="audio/ogg">
+		</audio>
+
+		<script>
+			document.getElementById("snd-st-d-0").volume = 0.15;
+			document.getElementById("snd-st-d-1").volume = 0.15;
+			document.getElementById("snd-st-d-2").volume = 0.15;
+			document.getElementById("snd-st-d-3").volume = 0.15;
+		</script>
+		
+	</body>
+</html>

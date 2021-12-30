@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=0.4">
+		<title> [ layer ] </title>
+		<link rel="icon" href="../images/logo.gif">
+		
+
+		<link rel="stylesheet" type="text/css" href="../css/oc-icons.css">
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+		<style> body {background-color: #fcc5ea ;} </style>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="../js/audio.js"></script>
+		
+		<script src="../js/cookies.js"></script>
+		<script src="../js/themes.js"></script>
+		<script>
+			getCurrentTheme();
+			let frameId = 0;
+			$(document).ready(() => {
+				const urlParams = new URLSearchParams(window.location.search);
+				frameId = urlParams.get('id');
+				$(`#win-id-${frameId} .win-text`, window.parent.document).html('[new-home@web ~]$ /home/nikhil/layer/story/');
+			});
+			audioStoryPlay(0);
+		</script>
+	</head>
+	
+	<body onunload='audioStoryStopAll();'>
+		
+		<div class="dLink"><button class="button" ondblclick="window.location.href = '../layer.html' + '?id=' + frameId">
+		<div class="dIcon dIcon-OFold"></div>
+			../
+		</button></div>
+		
+		<div class="dLink"><button class="button" ondblclick="window.location.href = 'mystory/me.html' + '?id=' + frameId">
+			<div class="dIcon dIcon-Txt"></div>
+			Me
+		</button></div>
+		
+		<div class="dLink"><button class="button" ondblclick="window.location.href = 'mystory/now.html' + '?id=' + frameId">
+			<div class="dIcon dIcon-Txt"></div>
+			Now
+		</button></div>
+		
+		<div class="dLink"><button class="button" ondblclick="window.location.href = 'mystory/how.html' + '?id=' + frameId">
+			<div class="dIcon dIcon-Txt"></div>
+			How
+		</button></div>
+		
+		<div class="dLink"><button class="button" ondblclick="window.location.href = 'mystory/true.html' + '?id=' + frameId">
+			<div class="dIcon dIcon-Txt"></div>
+			True
+		</button></div>
+		
+		<!--<div class="dLink"><button class="button" ondblclick="window.location.href = 'mystory/forgive.html' + '?id=' + frameId">
+			<div class="dIcon dIcon-Txt"></div>
+			許す
+		</button></div>
+		
+		<div class="dLink"><button class="button" ondblclick="window.location.href = 'mystory/hurt.html' + '?id=' + frameId">
+			<div class="dIcon dIcon-Txt"></div>
+			Hurt
+		</button></div>
+		
+		<div class="dLink"><button class="button" ondblclick="window.location.href = 'mystory/blood.html' + '?id=' + frameId">
+			<div class="dIcon dIcon-Txt"></div>
+			血液
+		</button></div> -->
+		
+	</body>
+</html>

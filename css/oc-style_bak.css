@@ -1,0 +1,261 @@
+.border-out{
+	position:absolute;
+	top: 0px; left: 0px;
+	width: 100%; height: 100%;
+	border: 2px solid #2b2b2b;
+	box-sizing: border-box;
+}
+
+#infobar {
+	position:fixed;
+	top: 0px; left: 0px; width: 100%;
+	box-sizing: border-box;
+	border: 4px ridge  #746f75;
+	font: normal 15px 'Kosugi'; 
+	line-height:19px;
+	/*padding: 1px;*/
+	background-color: #e5b7e5;
+	color:black;
+}
+
+#infobar a	    { color:#9d00b2; }
+#infobar a:hover{ color:#dc00ff; }
+
+#infomenu {
+	text-align:center; 
+	float:left;
+	width:120px; height:19px;
+	background-color: #111; color:white;
+	border-right: 4px ridge  #746f75;
+	cursor: help;
+}
+
+#infomenu:hover {background-color: #333;}
+
+#infopath {
+	margin: auto 10px auto 10px; 
+	text-align:center;
+	font-weight:bold;
+	float:left;
+}
+
+#page {
+	background-color: #f7d4e9;
+	/*background-image: url("../images/layer0.gif");*/
+	background-position:center;
+	background-size: cover;
+	position:fixed;
+	top: 27px;
+	left: 0px;
+	width: 100%; height: 100%;
+}
+
+#docker {
+	font: normal 15px 'Kosugi'; 
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	width: 120px;
+	min-height: 19px;
+	background-color: #222;
+	border: 4px ridge  #746f75;
+}
+
+.dock-names {
+	background-color: #424242;
+	width: 100%;
+	min-height: 19px;
+	margin: 3px auto 3px auto;
+}
+
+.dock-names:hover {
+	background-color: #a2a2a2;
+}
+
+
+.window {
+	display: inline-block;
+	position: relative;
+	background-color: #424242;
+	width: 50%;
+	height: 60%;
+	z-index: 10;
+	border: 5px ridge #746f75;
+}
+
+.win-bar{
+	text-align:left;
+	width: calc(100% - 2px);
+	height: 26px;
+	background-color: #e5b7e5;
+	border-bottom: 3px ridge #746f75;
+	color: black;
+}
+
+.win-close, 
+.win-full,
+.win-upd,
+.win-min{
+	background-position:center;
+	background-size: cover;
+	width:18px;
+	height:18px;
+	float:left;
+	margin: 4px 2px 4px 2px;
+	cursor: help;
+}
+
+.win-close { background-image: url("../images/oc-img/closeicon.png"); }
+.win-full { background-image: url("../images/oc-img/fullviewicon.png"); }
+.win-min { background-image: url("../images/oc-img/minimizeicon.png"); }
+.win-upd { background-image: url("../images/oc-img/updateicon.png"); }
+
+.win-text{
+	background-color: #7a6573; color: white;
+	width: calc( 100% - 96px );
+	margin: auto;
+	height: 22px;
+	box-sizing: border-box;
+	border: 3px ridge #746f75;
+	margin: 2px;
+	float: right;
+	
+	font: normal 15px 'Kosugi'; 
+	text-align: left;
+	padding-left: 4px;
+	vertical-align: middle;
+	line-height: 18px;  
+	text-shadow: 1px 1px black;
+}
+
+.win-content {
+	height: calc(100% - 29px);
+	width: calc(100% - 1px);
+	background-color: #111111;
+}
+
+.win-frame {
+	background-color: #111111;
+	overflow: none;
+	height: 100%;
+	width: 100%;
+	border: none;
+}
+
+.resizer {
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	right: -5px;
+	bottom: -5px;
+	cursor: nw-resize;
+}
+
+#story {
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	bottom: 2%;
+	z-index: 1;
+	text-shadow: 1px 1px black;
+	text-decoration: underline;
+}
+
+#story a{
+	color: white;
+}
+
+#backneko {
+	position:absolute;
+	right:0;
+	bottom:0;
+	opacity: 0.5;
+	z-index:-1;
+}
+
+:target {
+	display:inline;
+}
+
+#scanlines {
+  background-image: url("../images/scanlines.png");
+	background-repeat: repeat;
+	position:absolute; top: 0px; left: 0px;
+	width: 100%; height: 100%; z-index:9999;
+	animation: scanAnim 0.7s infinite;
+  animation-timing-function: linear;
+	pointer-events: none;
+}
+
+@keyframes scanAnim {
+	0% {
+		background-position: 0px 0px;
+	}
+	100% {
+		background-position: 0px 8px;
+	}
+}
+
+#loader {
+	background-color: rgba(7, 7, 7, 1);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 8888;
+	animation: imgBootUp 6s infinite;
+  animation-timing-function: linear;
+}
+
+#loader h1 {
+	position: absolute; top: 30%; left: 50%;
+  transform: translate(-50%, -50%);
+	font-size:100px;
+	animation: txtBootUp 6s infinite;
+  animation-timing-function: linear;
+}
+
+#loader h2 {
+	letter-spacing:9px; font-weight:normal;
+	position: absolute; top: calc( 30% + 110px ); left: 50%;
+  transform: translate(-55%, -50%);
+	font-size:20px;
+	animation: txtBootUp 6s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes imgBootUp {
+	95% {
+		opacity: 1.0;
+		background-color: rgba(7, 7, 7, 1);
+	}
+
+	100% {
+		opacity: 0.0;
+		background-color: rgba(7, 7, 7, 0);
+	}
+}
+
+@keyframes txtBootUp {
+	0% {
+		opacity: 0.0;
+	}
+
+	10% {
+		opacity: 0.0;
+	}
+
+	32% {
+		opacity: 1.0;
+	}
+
+	95% {
+		opacity: 1.0;
+	}
+
+	100% {
+		opacity: 0.0;
+	}
+}

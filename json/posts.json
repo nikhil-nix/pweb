@@ -1,0 +1,334 @@
+{
+  "posts":[  
+    {
+      "data":{
+	    	"title":"Tell",
+        "uname":"al1-ce", 
+        "date":"20.09.XX", 
+        "text":"<audio controls=''><source src='/sounds/ogg/word.ogg' type='audio/ogg'><source src='/sounds/mp3/word.mp3' type='audio/mpeg'>Your browser does not support the audio element.</audio>"
+      },
+      "comments":[
+      ],
+      "allowed":"post-restrict"
+    },
+  
+    {
+      "data":{
+	    	"title":"Soon",
+        "uname":"al1-ce", 
+        "date":"12.09.XX", 
+        "text":"Soon the <span class='glowtext'>AtheOS</span> would recieve huge update. Stay tuned"
+      },
+      "comments":[
+      ],
+      "allowed":"post-restrict"
+    },
+    
+    {
+      "data":{
+	    	"title":"os-void.boot.12-09-20.log",
+        "uname":"Automated AtheOS Post System", 
+        "date":"12.09.XX", 
+        "text":"<span style='text-align:left;'>initialising bootup properties<br><span style='color:#08ff52' >success</span><br>getting access to memory<br><span style='color:#08ff52' >success</span><br>getting access to network<br><span style='color:#08ff52' >success</span><br>starting bootup sequence<br>... <br><span style='color:red' >bootup interrupted</span><br><span style='color:red' >exit error = 49 74 20 61 6c 6d 6f 73 74 20 74 68 65 72 65</span><br><br>[Signal lost]</span>"
+      },
+      "comments":[
+      ],
+      "allowed":"post-restrict"
+    },
+    
+    {
+      "data":{
+	    	"title":" ",
+        "uname":"al1-ce", 
+        "date":"10.07.XX", 
+        "text":"И познаете истину, и истина сделает вас свободными."
+      },
+      "comments":[
+        {
+          "uicon":"icon_ritsuko", 
+          "uname":"Ritsuko",
+          "text":"And what was that?"
+        },
+        {
+          "uicon":"icon_who", 
+          "uname":"???",
+          "text":"Login page was offline, what happened, really?"
+        },
+        {
+          "uicon":"icon_neko", 
+          "uname":"(っ◔◡◔)っ ♥　ねこ ♥",
+          "text":"NEKO is not happy with this! :( WHAT SHOULD NEKO DO NOW"
+        },
+        {
+          "uicon":"icon_lain", 
+          "uname":"レイン",
+          "text":"Let that being live on their own"
+        },
+        {
+          "uicon":"icon_aesthetic", 
+          "uname":"𝔸𝕖𝕤𝕥𝕙𝕖𝕥𝕚𝕔",
+          "text":"So here we exists"
+        }
+      ],
+      "allowed":"post-login"
+    },
+    
+    {
+      "data":{
+	    	"title":"Violence",
+        "uname":"al1-ce", 
+        "date":"14.03.XX", 
+        "text":"There's a lot of violence in the world. Pathetic humans are so aggressive. World became so deadly.<br>What you were thinking when created such of a fatal tech?"
+      },
+      "comments":[
+        {
+          "uicon":"icon_who", 
+          "uname":"???", 
+          "text":"But what you thinking now? These... machines. It's not in our hands."
+        },
+        {
+          "uicon":"icon_medusa", 
+          "uname":"MΣDЦƧΛ", 
+          "text":"You're the most offencive here, you know?"
+        } ,
+        {
+          "uicon":"icon_lain", 
+          "uname":"レイン", 
+          "text":"The world starting to decade. It's unavoidable"
+        } ,
+        {
+          "uicon":"icon_ritsuko", 
+          "uname":"Ritsuko", 
+          "text":"Now the whole districts falling in ashes! Better to hide somewhere to create the plan."
+        } ,
+        {
+          "uicon":"icon_rei", 
+          "uname":"Rei", 
+          "text":"It's fine unless the moment that will destroy everything and everyone"
+        } 
+      ],
+      "allowed":"post-login"
+    },
+    
+    {
+      "data":{
+	    	"title":" ",
+        "uname":" ", 
+        "date":"06.03.XX", 
+        "text":" "
+      },
+      "comments":[
+        {
+          "uicon":"icon_glitch", 
+          "uname":"🅶🅻🅸🆃🅲🅷",
+          "text":" "
+        }
+      ],
+      "allowed":"post-restrict"
+    },
+    
+    {
+      "data":{
+	    	"title":"Layers?",
+        "uname":"al1-ce", 
+        "date":"01.03.XX", 
+        "text":"How much the layer can reveal? Nothing!<br>But what if I say that there're more then one layer here. What then?"
+      },
+      "comments":[
+        {
+          "uicon":"icon_sailor", 
+          "uname":"𝒞𝒾𝓉𝓎𝒢𝒾𝓇𝓁", 
+          "text":"Wow, I haven't even noticed that!!"
+        },
+        {
+          "uicon":"icon_neko", 
+          "uname":"(っ◔◡◔)っ ♥　ねこ ♥", 
+          "text":"Finally NEKO getting her hands on something big and funny"
+        } ,
+        {
+          "uicon":"icon_glitch", 
+          "uname":"🅶🅻🅸🆃🅲🅷", 
+          "text":"I̷n̷t̶e̷r̸e̴s̶t̴i̷n̴g̴ ̴b̸u̶t̵ ̷w̶h̵e̵r̸e̸ ̴i̵s̶ ̵i̵t̷?̴"
+        } ,
+        {
+          "uicon":"icon_asuka", 
+          "uname":"Asuka", 
+          "text":"HA! I know the truth behind it anyway, you're too predictable!"
+        } 
+      ],
+      "allowed":"post-login"
+    },
+    
+    {
+      "data":{
+	    	"title":"The <span class='glowtext'>VOID</span> appeared",
+        "uname":"al1-ce", 
+        "date":"26.02.XX", 
+        "text":"Brace yourself for the new Void. The way is clear. The knowlenge is near."
+      },
+      "comments":[
+        {
+          "uicon":"icon_lain", 
+          "uname":"レイン", 
+          "text":"Intresting..."
+        },
+        {
+          "uicon":"icon_medusa", 
+          "uname":"MΣDЦƧΛ", 
+          "text":"You call THAT 'the Void'? You must be fool or fool."
+        } 
+      ],
+      "allowed":"post-login"
+    },
+    
+    {
+      "data":{
+	    	"title":"больше нет пути назад",
+        "uname":"Automated AtheOS Post System", 
+        "date":"16.02.XX", 
+        "text":"The VOID opened it's gate. Confront the forming VOID. Go for your way"
+      },
+      "comments":[
+      ],
+      "allowed":"post-restrict"
+    },
+    
+    {
+      "data":{
+	    	"title":"the flow",
+        "uname":"al1-ce", 
+        "date":"16.02.XX", 
+        "text":"<iframe width='98%' height='415' src='https://www.youtube.com/embed/m5pbmt9VSTM' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+      },
+      "comments":[
+        {
+          "uicon":"icon_glitch", 
+          "uname":"🅶🅻🅸🆃🅲🅷", 
+          "text":"s̸o̸ ̸t̸h̸a̴t̸'̵s̴ ̶t̸h̵e̸ ̴w̵a̴y̷"
+        } 
+      ],
+      "allowed":"post-login"
+    },
+    
+    {
+      "data":{
+	    	"title":"os-void.boot.15-02-20.log",
+        "uname":"Automated AtheOS Post System", 
+        "date":"15.02.XX", 
+        "text":"<span style='text-align:left;'>initialising bootup properties<br><span style='color:#08ff52' >success</span><br>getting access to memory<br><span style='color:#08ff52' >success</span><br>getting access to network<br><span style='color:#08ff52' >success</span><br>starting bootup sequence<br>... <br><span style='color:red' >bootup interrupted</span><br><span style='color:red' >exit error = 596f75277265206e6f74207265616479</span><br><br>[Signal lost]</span>"
+      },
+      "comments":[
+      ],
+      "allowed":"post-restrict"
+    },
+    
+    {
+      "data":{
+	    	"title":"We wait. We know.",
+        "uname":"al1-ce", 
+        "date":"14.02.XX", 
+        "text":"The update of the void is near. You all shall wait some time to be awarded by the <span class='glowtext'>New Void</span></h3><img src='images/posts-img/postupdate.gif' style='width:435px' /><h1>始まり" 
+      },
+      "comments":[
+        {
+          "uicon":"icon_lain", 
+          "uname":"レイン", 
+          "text":"Is it?"
+        },{
+          "uicon":"icon_neko", 
+          "uname":"(っ◔◡◔)っ ♥　ねこ ♥", 
+          "text":"Finnaly nyan! NEKO getting bored from this site laynyaut"
+        },{
+          "uicon":"icon_aesthetic", 
+          "uname":"𝔸𝕖𝕤𝕥𝕙𝕖𝕥𝕚𝕔", 
+          "text":"よかったね"
+        } 
+      ], 
+      "allowed":"post-login"
+    },
+    
+    {
+      "data":{
+	    	"title":"Can we post the line?",
+        "uname":"al1-ce", 
+        "date":"01.02.XX", 
+        "text":"So the point of itself just ubnormous.</h3><img src='images/posts-img/eyes.gif' style='width:72px' /><h3> Can we, the humanity make the difference between good and evil? Can line be posted with itself?" 
+      },
+      "comments":[
+        {
+          "uicon":"icon_neko", 
+          "uname":"(っ◔◡◔)っ ♥　ねこ ♥", 
+          "text":"So ~nyan~ you fellow fool think to distract mightness NEKO from understanding big big consept? Baka neeeee"
+        },{
+          "uicon":"icon_medusa", 
+          "uname":"MΣDЦƧΛ", 
+          "text":"Have you ever tried to think?"
+        },{
+          "uicon":"icon_shinji", 
+          "uname":"Shinji", 
+          "text":"I'm full of this trash"
+        } 
+      ], 
+      "allowed":"post-login"
+    },
+    
+    {
+      "data":{
+	    	"title":"Here",
+        "uname":"al1-ce", 
+        "date":"21.01.XX", 
+        "text":"We are all here" 
+      },
+      "comments":[
+        {
+          "uicon":"icon_aesthetic", 
+          "uname":"𝔸𝕖𝕤𝕥𝕙𝕖𝕥𝕚𝕔", 
+          "text":"この記事の主な目的は何ですか？"
+        }
+      ], 
+      "allowed":"post-login"
+    },
+    
+    {
+      "data":{
+	    	"title":"Когда зло господствует",
+        "uname":"al1-ce", 
+        "date":"16.01.XX", 
+        "text":"So you, the user, who are the most unique user on this void, just making a beautiful thing and putting it in trash bin. Isn't it a nice move for fiend?" 
+      },
+      "comments":[
+        {
+          "uicon":"icon_sadness", 
+          "uname":"𝒮𝒶𝒹𝓃𝑒𝓈𝓈", 
+          "text":"Hey, can you just not try to insult us?"
+        },{
+          "uicon":"icon_who", 
+          "uname":"???", 
+          "text":"ɟlǝsɹnoʎ ǝʌɐɥǝᙠ"
+        },{
+          "uicon":"icon_neko", 
+          "uname":"(っ◔◡◔)っ ♥　ねこ ♥", 
+          "text":"NEKO is not happy about your posts"
+        }
+      ], 
+      "allowed":"post-login"
+    },
+    
+    {
+      "data":{
+    		"title":"New begining",
+        "uname":"al1-ce", 
+        "date":"00.00.XX", 
+        "text":"The void just vanished. May it be a new way to observe the world and the void or just error from my hand" 
+      },
+      "comments":[
+        {
+          "uicon":"icon_adminb", 
+          "uname":"admin", 
+          "text":"Leave this post alone and explore the true void"
+        }
+      ], 
+      "allowed":"post-restrict"
+    }
+  ] 
+}
