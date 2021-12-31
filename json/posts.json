@@ -103,7 +103,7 @@
 	    	"title":"We wait. We know.",
         "uname":"निखिल", 
         "date":"14.02.XX", 
-        "text":"The update of the void is near. You all shall wait some time to be awarded by the <span class='glowtext'>New Void</span></h3><img src='images/posts-img/postupdate.gif' style='width:435px' /><h1>" 
+        "text":"The update of the void is near. You all shall wait some time to be awarded by the <span class='glowtext'>New Void</span></h3>" 
       },
       "comments":[
       ], 
@@ -115,7 +115,7 @@
 	    	"title":"Can we post the line?",
         "uname":"निखिल", 
         "date":"01.02.XX", 
-        "text":"So the point of itself just ubnormous.</h3><img src='images/posts-img/eyes.gif' style='width:72px' /><h3> Can we, the humanity make the difference between good and evil? Can line be posted with itself?" 
+        "text":"So the point of itself just ubnormous.</h3><img src='../images/posts-img/eyes.gif' style='width:72px' /><h3> Can we, the humanity make the difference between good and evil? Can line be posted with itself?" 
       },
       "comments":[
       ], 
@@ -145,7 +145,7 @@
       "comments":[
         {
           "uicon":"icon_adminb", 
-          "uname":"admin", 
+          "uname":"निखिल", 
           "text":"Leave this post alone and explore the true void"
         }
       ], 
