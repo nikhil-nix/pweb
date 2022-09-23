@@ -2,7 +2,7 @@
 
 body{
 	background-position:center; background-attachment: fixed; background-size: cover;
-	background-color: #070707; 
+	background-color: #edcbedaa; 
 	font-family:'Courier';
 	font-weight:normal;
 	text-align:center;
@@ -127,7 +127,7 @@ button:active {
 /* Custom elements */
 
 .block {
-	background-color:#070707;
+	background-color:#0000001e;
 	width:55%;
 	height:auto;
 	margin: 35px auto 10px auto;

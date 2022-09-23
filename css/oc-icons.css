@@ -43,6 +43,7 @@
 	clear: both;
 }
 
+.dIcon-Home  { background-image: url("../images/myself.png"		 ); }
 .dIcon-About { background-image: url("../images/oc-img/l-about.png" ); }
 .dIcon-Blog  { background-image: url("../images/oc-img/l-blog.png"  ); }
 .dIcon-Guest { background-image: url("../images/oc-img/l-guest.png" ); }
