@@ -11,8 +11,12 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 		<style>
+			
+
+			
 			body {
 				font: normal 18px 'Kosugi'; 
+				height: calc(80vh);
 			}
 			#scanlines {
 				background-image: url("images/scanlines.png");
@@ -28,8 +32,8 @@
 				100% {background-position: 0px 8px;}
 			}
 			a {
-				background: linear-gradient(0deg, rgba(7,7,7,1) 0%, rgba(7,7,7,1) 25%, rgb(57, 54, 65) 50%, rgba(7,7,7,1) 75%, rgba(7,7,7,1) 100%);
-				width: 100%;
+				background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 25%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 75%, rgba(255, 255, 255, 0.455) 100%);
+				width: 60%;
 				margin: 15px 0;
 				clear: both;
 				border:2px solid rgb(57, 54, 65);
@@ -43,9 +47,8 @@
 	</head>
 	
 	<body>
-		<div id="scanlines"></div>
-
-		<br><div id="infopath">Mobile nikhilix System</div><br>
+		<div style="height:90%;width:90%;overflow:auto;border:8px solid rgba(117, 74, 74, 0.558);padding:2%">
+		<br><div id="infopath">H</div><br>
 
 		<a href="about.html"><img src="images/oc-img/l-about.png" />About</a>
 		<a href="blog.html"><img src="images/oc-img/l-blog.png" />Blog</a>
@@ -57,5 +60,6 @@
 
 		<a href="layer.html"><img src="images/oc-img/l-layers.png" />Layer</a>
 		<a href="knowledge.html"><img src="images/oc-img/l-know.png" />Know</a>
+		</div>
 	</body>
 </html>
