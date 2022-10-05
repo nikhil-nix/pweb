@@ -26,30 +26,30 @@
 		<script src="../../js/cookies.js"></script>
 		<script src="../../js/themes.js"></script>
 		<script>
+			getCurrentTheme();
 			let frameId = 0;
 			$(document).ready(() => {
 				const urlParams = new URLSearchParams(window.location.search);
 				frameId = urlParams.get('id');
-				$(`#win-id-${frameId} .win-text`, window.parent.document).html('[new-home@web ~]$ /home/nikhil/layer/story/now.txt');
+				$(`#win-id-${frameId} .win-text`, window.parent.document).html('[new-home@web ~]$ /home/nikhil/layer/story/me.txt');
 			});
 			audioStoryPlay(0);
 		</script>
 	</head>	
 	
 	<body onunload='audioStoryStopAll();'>
+		
 		<div id="backbut">
 			<button class="button" onclick="window.location.href = '../my-story.html' + '?id=' + frameId"> Go Back </button>
 		</div>
 		<br>
-		<h1>Happiness</h1>
+		
+		<h1>NOTHING HAPPENS</h1>
 		<h2>
-			I was thinking about things like happiness, sadness and what things was.<br>
-			There are plenty of that I can't reach right now. How can I manage or sort my thoughts when they're almost dead now?. I think I started to feel good but... I'm not.<br>
-			Well, here's the deal. How can I be happy with myself?<br>
-			There's no way I can now...<br>
-			Going back to dark feelings now is different then it was before. Now I'm different and it defines my soul and my mind. But I don't want to go back. I don't want to go back anymore... I DON'T WANT TO LIVE LIKE THAT. . .<br>
-			How should I live?
-		</h2>
+			<br><br>I WILL BE THE SAME PERSON<br>AS I AM<br><br>THE SAME PLACE<br>AS ALWAYS<br><br>THE SAME TIME<br>AS ALWAYS<br><br>FOR REASONS UNKNOWN<br><br>FOR THE REASON THAT<br>NOTHING WILL CHANGE<br><br>I WILL NOT THINK <br>ANYTHING BAD ABOUT THEM <br><br>I WILL MAKE THEM <br> LAUGH AND HAPPY<br><br>
+				I WILL COME BACK <br>AFTER HELPING THE PERSON <br><br>WHO ONCE HURT ME A LOT <br><br>AND I THOUGHT TO <br>NEVER EVER GONNA TALK TO THAT PERSON AGAIN <br><br>FOR THE REASONS UNKNOWN <br><br> FOR THE REASON THAT <br>NOTHING WILL CHANGE <br><br>
+				THEY WILL KNOW NOTHING <br> I WILL NOT TELL THEM <br> ABOUT THAT BLOWS I RECIEVED <br><br>AND ALWAYS GIVE THEM <br>A PLEASANT SMILE <br><br>
+				I WILL BE THE SAME PERSON <br>AS I AM <br> THE SAME PLACE <br>AS ALWAYS <br><br>THE SAME TIME <br>AS ALWAYS <br><br>FOR REASONS UNKNOWN <br><br>FOR THE REASON THAT <br>NOTHING WILL CHANGE	<br><br><br><br>	</h2>
 		
 	</body>
 </html>
