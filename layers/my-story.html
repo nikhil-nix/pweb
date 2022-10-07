@@ -22,44 +22,45 @@
 			$(document).ready(() => {
 				const urlParams = new URLSearchParams(window.location.search);
 				frameId = urlParams.get('id');
-				$(`#win-id-${frameId} .win-text`, window.parent.document).html('[new-home@web ~]$ /home/nikhil/layer/story/');
+				$(`#win-id-${frameId} .win-text`, window.parent.document).html('[new-home@web ~]$ /home/निखिल/layer');
 			});
 			audioStoryPlay(1);
 		</script>
 	</head>
 	
 	<body onunload='audioStoryStopAll();'>
-		
-		<div class="dLink"><button class="button" ondblclick="window.location.href = '../layer.html' + '?id=' + frameId">
-		<div class="dIcon dIcon-OFold"></div>
-			../
+		<div class="dLink"><button>
+			This a rather emotional Blog, I tend to write posts only when I'm feeling particularly bad. I write this blog so I can put my thoughts and feelings out there and learn how to handle them better.
+		</button></div>
+
+		<div class="dLink"><button class="button" onclick="window.location.href = '../layer.html' + '?id=' + frameId">
+			
 		</button></div>
 		
-		<div class="dLink"><button class="button" ondblclick="window.location.href = 'mystory/nothing.html' + '?id=' + frameId">
+		<div class="dLink"><button class="button" onclick="window.location.href = 'mystory/nothing.html' + '?id=' + frameId">
 			<div class="dIcon dIcon-Txt"></div>
 			Nothing
 		</button></div>
 
-		<div class="dLink"><button class="button" ondblclick="window.location.href = 'mysto' + '?id=' + frameId">
+		<div class="dLink"><button class="button" onclick="window.location.href = 'mysto' + '?id=' + frameId">
 		</button></div>
 
-		<div class="dLink"><button class="button" ondblclick="window.location.href = 'mystory/other.html' + '?id=' + frameId">
+		<div class="dLink"><button class="button" onclick="window.location.href = 'mystory/other.html' + '?id=' + frameId">
 			<div class="dIcon dIcon-Txt"></div>
 			Others
 		</button></div>
 
-
-		<div class="dLink"><button class="button" ondblclick="window.location.href = 'mystory/me.html' + '?id=' + frameId">
+		<div class="dLink"><button class="button" onclick="window.location.href = 'mystory/me.html' + '?id=' + frameId">
 			<div class="dIcon dIcon-Txt"></div>
 			Me
 		</button></div>
 		
-		<div class="dLink"><button class="button" ondblclick="window.location.href = 'mystory/now.html' + '?id=' + frameId">
+		<div class="dLink"><button class="button" onclick="window.location.href = 'mystory/now.html' + '?id=' + frameId">
 			<div class="dIcon dIcon-Txt"></div>
 			Now
 		</button></div>
 		
-		<div class="dLink"><button class="button" ondblclick="window.location.href = 'mystory/how.html' + '?id=' + frameId">
+		<!--<div class="dLink"><button class="button" ondblclick="window.location.href = 'mystory/how.html' + '?id=' + frameId">
 			<div class="dIcon dIcon-Txt"></div>
 			How
 		</button></div>
