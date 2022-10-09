@@ -67,8 +67,8 @@ function checkHacker(val) {
 
 function printDefault() {
   const currDate = new Date().toString().split('GMT')[0];
-  printf('AtheOS Command System [Version 1.2.X]');
-  printf('Copyright (C) 20XX al1-ce. All rights reserved.');
+  printf('Command System [Version 1.2.X]');
+  printf('');
   printf(' ');
   printf('Current time: ' + currDate);
   printf(' ');

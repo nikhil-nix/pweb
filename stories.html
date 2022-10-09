@@ -1,0 +1,187 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+
+
+:root {
+  --ink: #edcbedaa;
+}
+
+body{
+	background-position:center; background-attachment: fixed; background-size: cover;
+	background-color: #edcbedaa; 
+	font-family:'Courier';
+	font-weight:normal;
+	text-align:center;
+	line-height:1;
+	color: #f4f1e8;
+	letter-spacing:5px;
+	margin: 0 auto;
+}
+
+.mainBody {
+  height: calc(80vh);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 a {
+  transition: all 0.1s;
+}
+
+h1 a:hover {
+  background: #edcbedaa;
+  color: #edcbedaa;
+}
+
+input[type="radio"] {
+  position: absolute;
+  left: -9999px;
+}
+
+
+/* FILTERS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.filters {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.filters * {
+  display: inline-block;
+}
+
+.filters label {
+  padding: 0.5rem 0.9rem;
+  border-radius: 5rem;
+  line-height: normal;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.filters label:hover {
+  background: #edcbedaa;
+  color: #edcbedaa;
+}
+
+
+/* FILTERED ELEMENTS (POSTS)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+/* FILTERING RULES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+[value="mie"]:checked ~ .filters [for="mie"],
+[value="mhe"]:checked ~ .filters [for="mhe"],
+[value="mae"]:checked ~ .filters [for="mae"],
+[value="be"]:checked ~ .filters [for="be"],
+[value="tex"]:checked ~ .filters [for="tex"],
+[value="n"]:checked ~ .filters [for="n"],
+[value="c"]:checked ~ .filters [for="c"] {
+  background: var(--green);
+  color: var(--white);
+}
+
+[value="All"]:checked ~ .posts [data-category] {
+  display: block;
+}
+
+[value="mie"]:checked ~ .posts .post:not([data-category~="mie"]),
+[value="mhe"]:checked ~ .posts .post:not([data-category~="mhe"]),
+[value="mae"]:checked ~ .posts .post:not([data-category~="mae"]),
+[value="be"]:checked ~ .posts .post:not([data-category~="be"]),
+[value="tex"]:checked ~ .posts .post:not([data-category~="tex"]),
+[value="n"]:checked ~ .posts .post:not([data-category~="n"]),
+[value="c"]:checked ~ .posts .post:not([data-category~="c"]) {
+  display: none;
+}
+
+
+
+/* MQ
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 650px) {
+  .filters label {
+  padding: 0.5rem 0.2rem;
+
+  html {
+    font-size: 14px;
+    
+  }
+}
+
+
+    </style>
+  </head>
+
+<body>	  
+<div class="post">	  
+	  <div class="filters">
+       <!-- <label for="All">All</label> -->
+        <label for="mie"></label>
+        <label for="mhe"></label>
+        <label for="mae"></label>
+        <label for="be"></label>
+        <label for="tex"></label>
+    </div>
+ </div>
+<section>
+	
+  <div class="mainBody">
+    <input type="radio" id="All" name="categories" value="All">
+    <input type="radio" id="mie" name="categories" value="mie" checked>
+    <input type="radio" id="mhe" name="categories" value="mhe">
+    <input type="radio" id="mae" name="categories" value="mae">
+    <input type="radio" id="be" name="categories" value="be">
+    <input type="radio" id="tex" name="categories" value="tex">
+    <input type="radio" id="n" name="categories" value="n">
+    <input type="radio" id="c" name="categories" value="c">
+
+
+
+    <div class="posts">
+      <div class="post" data-category="tex">
+		  <iframe src="" style="width: 100%; height: calc(80vh)" ></iframe>
+      </div>
+
+      <div class="post" data-category="mie">
+		  <iframe src="" style="width: 100%; height: calc(80vh)"></iframe>
+      </div>
+
+
+      <div class="post" data-category="mhe">
+		  <iframe src="" style="width: 100%; height: calc(80vh)"></iframe>
+      </div>
+
+
+      <div class="post" data-category="mae">
+		  <iframe src="" style="width: 100%; height: calc(80vh)"></iframe>
+      </div>
+
+
+      <div class="post" data-category="be">
+		  <iframe src="" style="width: 100%; height: calc(80vh)"></iframe>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+</body
